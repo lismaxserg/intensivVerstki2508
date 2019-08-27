@@ -10,13 +10,15 @@ function showForm() {
   const formContainer = document.getElementById('form-container');
 
   formContainer.style.display = 'flex';
+  
+}
 
-  formContainer.addEventListener('click', hideForm, false);
+const formContainer2 = document.getElementById('form-container');
 
-  function hideForm(event) {
-    if (event.target == this) {
-      this.style.display = 'none';
-      event.stopPropagation();
-    }
-  }
+formContainer2.addEventListener('click', hideForm, false);
+
+function hideForm(event) {
+   if (event.target == this) {
+     this.style.display = 'none';
+   }
 }
