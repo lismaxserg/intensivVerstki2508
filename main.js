@@ -14,7 +14,7 @@ function showForm() {
   formContainer.addEventListener('click', hideForm, false);
 
   function hideForm(event) {
-    if (event.toElement == this) {
+    if (event.target == this) {
       this.style.display = 'none';
     }
   }
