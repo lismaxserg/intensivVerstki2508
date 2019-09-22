@@ -296,6 +296,10 @@ footer {
    .centered {
       width: 760px;
    }
+   
+   .my-photo {
+      background: none;
+   }
 }
 
 @media screen and (max-width: 760px) {
