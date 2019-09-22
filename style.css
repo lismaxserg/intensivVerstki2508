@@ -296,10 +296,33 @@ footer {
    .centered {
       width: 760px;
    }
-   
+
    .my-photo {
       background: none;
+      text-align: center;
    }
+
+   .icon a {
+      margin-bottom: 7%;
+   }
+
+   .icons{
+      justify-content: center;
+   }
+
+   .icon{
+      margin-right: 6px;
+   }
+
+   .all-devices h3 {
+      font-size: 30px;
+      padding-left: 20px;
+   }
+   .all-devices p {
+      font-size: 15px;
+      padding-left: 20px;
+   }
+   
 }
 
 @media screen and (max-width: 760px) {
