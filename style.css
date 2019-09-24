@@ -50,7 +50,7 @@ header {
 }
 
 .centered {
-   width: 1170px;
+   max-width: 1170px;
    margin: 0 auto;
    padding: 0 2%;
 }
@@ -108,6 +108,7 @@ h2 {
    display: flex;
    flex-direction: column;
    align-items: center;
+   
 }
 
 .icon p {
@@ -294,7 +295,7 @@ footer {
 
 @media screen and (max-width: 960px) {
    .centered {
-      width: 760px;
+      max-width: 760px;
    }
 
    .my-photo {
@@ -311,7 +312,7 @@ footer {
    }
 
    .icon{
-      margin-right: 6px;
+      flex-basis: 50%;
    }
 
    .all-devices h3 {
@@ -325,7 +326,7 @@ footer {
    
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 770px) {
 
    .centered {
       max-width: 600px;
@@ -336,12 +337,20 @@ footer {
       flex-wrap: wrap;
    }
 
-   .icon {
-      width: 48%;
+   header {
+      flex-direction: column;
+      height: 80px;
    }
 
    .my-photo {
       background: none;
+   }
+   .phone{
+      font-size: 18px;
+   }
+
+   .order-recall{
+      font-size: 16px;
    }
 }
 
@@ -363,6 +372,18 @@ footer {
 
    .my-photo {
       background: none;
+   }
+
+   .contacts {
+      flex-direction: column;
+   }
+
+   .ordered-list {
+      display: none;
+   }
+
+   .phone-and-email {
+      display: none;
    }
 
 }
