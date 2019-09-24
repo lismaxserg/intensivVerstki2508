@@ -387,3 +387,26 @@ footer {
    }
 
 }
+
+
+@media screen and (max-width: 380px) {
+   #contacts-container {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+   header {
+      flex-direction: row;
+      justify-content: center;
+   }
+
+   .phone{
+      margin-top: 7px;
+      margin-bottom: 7px;
+   }
+
+   nav{
+      display: inline;
+      text-align: center;
+   }
+}
