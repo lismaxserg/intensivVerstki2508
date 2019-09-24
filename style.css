@@ -391,8 +391,9 @@ footer {
 
 @media screen and (max-width: 380px) {
    #contacts-container {
-      flex-wrap: wrap;
-      justify-content: center;
+      display: none;
+      /* flex-wrap: wrap; */
+      /* justify-content: center; */
    }
 
    header {
@@ -400,12 +401,12 @@ footer {
       justify-content: center;
    }
 
-   .phone{
+   .phone {
       margin-top: 7px;
       margin-bottom: 7px;
    }
 
-   nav{
+   nav {
       display: inline;
       text-align: center;
    }
