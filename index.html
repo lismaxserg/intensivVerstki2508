@@ -12,14 +12,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <div id ="form-container">
-          <form id="form-post" action="" method="post">
-            <h3>Форма заявки</h3>
-            <input type="text" name="name" value="Имя" autofocus maxlength="25" >
-            <input type="tel" name="tel" value="Телефон">
-            <input class="more" type="submit" value = "Заказать проект">
-          </form>
-        </div>
+    <div id="form-container">
+      <form id="form-post" action="" method="post">
+        <h3>Форма заявки</h3>
+        <input type="text" name="name" value="Имя" autofocus maxlength="25" />
+        <input type="tel" name="tel" value="Телефон" />
+        <input class="more" type="submit" value="Заказать проект" />
+      </form>
+    </div>
     <header class="centered">
       <nav>
         <a href="#">Услуги</a>
@@ -33,10 +33,13 @@
     </header>
     <main>
       <section class="centered">
-        <div class="my-photo">
-          <h1>Дмитрий Алексеев</h1>
-          <p>Frontend-разработчик и веб-верстальщик</p>
-          <button class="more">Узнать больше</button>
+        <div class="my-photo-block">
+          <div class="my-photo">
+            <h1>Дмитрий Алексеев</h1>
+            <p>Frontend-разработчик и веб-верстальщик</p>
+            <button class="more">Узнать больше</button>
+          </div>
+          <img src="/img/Dmitry Alekseev.png" alt="Дмитрий Алексеев" />
         </div>
       </section>
 
@@ -106,7 +109,6 @@
 
     <section class="centered">
       <div class="contacts">
-       
         <ul class="ordered-list">
           <li><a href="#">Услуги</a></li>
           <li><a href="#">Портфолио</a></li>
@@ -114,29 +116,48 @@
         </ul>
 
         <div class="phone-and-email">
-
-          <div class = "phone-container">
+          <div class="phone-container">
             <img src="img/icons/call-answer (1).png" alt="" />
             <a class="phone" href="tel:+74955555555">+7 495 555 55 55</a>
           </div>
 
-          <div class = "phone-container cancel">
+          <div class="phone-container cancel">
             <img src="img/icons/envelope (1).png" alt="" />
-            <a  class="phone" href="mailto:dmitry@alekseev.com">dmitry@alekseev.com</a>
+            <a class="phone" href="mailto:dmitry@alekseev.com"
+              >dmitry@alekseev.com</a
+            >
           </div>
-
         </div>
 
         <div class="offer-social">
-            <button class="order-recall">Заказать звонок</button>
-            <ul class="socials">
-              <li><a href="#"><img id="vk" src="img/icons/vk (1).png" alt=""></a></li>
-              <li><a href="#"><img id="facebook" src="img/icons/facebook-logo (1).png" alt=""></a></li>
-              <li><a href="#"><img id="twitter" src="img/icons/twitter-logo-silhouette.png" alt=""></a></li>
-              <li><a href="#"><img id="instagram" src="img/icons/instagram-social-network-logo-of-photo-camera.png" alt=""></a></li>
-            </ul>
+          <button class="order-recall">Заказать звонок</button>
+          <ul class="socials">
+            <li>
+              <a href="#"><img id="vk" src="img/icons/vk (1).png" alt=""/></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img id="facebook" src="img/icons/facebook-logo (1).png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  id="twitter"
+                  src="img/icons/twitter-logo-silhouette.png"
+                  alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  id="instagram"
+                  src="img/icons/instagram-social-network-logo-of-photo-camera.png"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
         </div>
-
       </div>
     </section>
 

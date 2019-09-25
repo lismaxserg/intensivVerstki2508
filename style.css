@@ -55,11 +55,14 @@ header {
    padding: 0 2%;
 }
 
+.my-photo-block {
+   display: flex;
+}
+
 .my-photo {
-   background: url("img/Dmitry Alekseev.png");
-   background-position: right bottom;
-   background-repeat: no-repeat;
-   height: 666px;
+   flex-grow: 1;
+   flex-shrink: 0;
+   flex-basis: 60%;
 }
 
 .my-photo h1 {
@@ -300,7 +303,7 @@ footer {
 
    .my-photo {
       background: none;
-      text-align: center;
+      /* text-align: center; */
    }
 
    .all-devices h3 {
