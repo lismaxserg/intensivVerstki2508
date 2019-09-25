@@ -100,7 +100,7 @@ h2 {
 .icons {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: space-around;
    flex-wrap: wrap;
 }
 
@@ -108,7 +108,7 @@ h2 {
    display: flex;
    flex-direction: column;
    align-items: center;
-   
+   margin-bottom: 2%;
 }
 
 .icon p {
@@ -303,18 +303,6 @@ footer {
       text-align: center;
    }
 
-   .icon a {
-      margin-bottom: 7%;
-   }
-
-   .icons{
-      justify-content: center;
-   }
-
-   .icon{
-      flex-basis: 50%;
-   }
-
    .all-devices h3 {
       font-size: 30px;
       padding-left: 20px;
@@ -363,7 +351,6 @@ footer {
    .icons {
       display: flex;
       flex-direction: column;
-      justify-content: center;
    }
 
    .icon {
