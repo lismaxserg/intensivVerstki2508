@@ -89,7 +89,7 @@ header {
 h2 {
    padding: 45px;
    text-align: center;
-   font-size: 30px;
+   font-size: 50px;
 }
 
 .button-centered {
@@ -389,6 +389,11 @@ footer {
    img {
       max-width: 90%;
    }
+
+   h2 {
+      font-size: 30px;
+   }
+   
 }
 
 
