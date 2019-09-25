@@ -89,7 +89,7 @@ header {
 h2 {
    padding: 45px;
    text-align: center;
-   font-size: 50px;
+   font-size: 30px;
 }
 
 .button-centered {
@@ -409,8 +409,7 @@ footer {
       margin-bottom: 7px;
    }
 
-   nav {
-      display: inline;
-      text-align: center;
+   nav :last-child{
+      margin-right: 0px;
    }
 }
