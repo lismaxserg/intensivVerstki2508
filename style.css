@@ -385,7 +385,10 @@ footer {
    .phone-and-email {
       display: none;
    }
-
+   
+   img {
+      max-width: 90%
+   }
 }
 
 
