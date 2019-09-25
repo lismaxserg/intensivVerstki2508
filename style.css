@@ -306,7 +306,7 @@ footer {
 
    .my-photo {
       background: none;
-      /* text-align: center; */
+      text-align: center;
    }
 
    .all-devices h3 {
@@ -336,9 +336,16 @@ footer {
       height: 80px;
    }
 
-   .my-photo {
-      background: none;
+   .my-photo-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
    }
+
+   .my-photo-block img {
+      width: 100%;
+   }
+
    .phone{
       font-size: 18px;
    }
