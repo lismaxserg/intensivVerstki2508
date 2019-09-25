@@ -62,7 +62,10 @@ header {
 .my-photo {
    flex-grow: 1;
    flex-shrink: 0;
-   flex-basis: 60%;
+}
+
+.my-photo-block img{
+   width: 50%;
 }
 
 .my-photo h1 {
